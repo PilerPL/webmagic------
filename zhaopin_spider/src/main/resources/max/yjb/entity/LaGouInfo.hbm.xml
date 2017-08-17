@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="max.yjb.entity" >
+	<class name="LaGouInfo" table="t_lagou"  >
+		<id name="id" >
+			<generator class="native"></generator>
+		</id>
+		<property name="webName"  ></property>
+		<property name="company"  ></property>
+		<property name="salary"  ></property>
+		<property name="advantage"  ></property>
+		<property name="description" type="text"></property>
+		<property name="addr" ></property>
+	</class>
+</hibernate-mapping>
